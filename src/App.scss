@@ -60,13 +60,13 @@ body {
       width: 50%;
 
       .button {
-        background-color: darken($backgroundColor,15%);
+        background-color: rgba(0,0,0,0.3);
         height: (100/3);
         width: 90px;
         text-align: center;
         position: relative;
         border-radius: 15px;
-        box-shadow: 0 5px 0 1px rgba(0,0,0,0.3);
+        box-shadow: 0 5px 0 1px darken($backgroundColor,15%);
         cursor:pointer;
         transition: 0.1s;
         &:hover {

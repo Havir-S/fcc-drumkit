@@ -9,7 +9,7 @@ function App() {
         <div className='buttons' id='display'>
           <div className='button drum-pad'>
             <div>1</div>
-            <audio controls autoplay hidden>
+            <audio controls autoPlay hidden>
 
             </audio>
           </div>
